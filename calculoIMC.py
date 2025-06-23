@@ -1,0 +1,5 @@
+massa = float(input("Massa kg: "))
+altura = float(input("Altura M: "))
+imc = massa / (altura * altura)
+casdec = round(imc, 2)
+print(casdec)
